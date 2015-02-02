@@ -20,4 +20,5 @@ But since the algorithm have to handle several loops for creating the clusters a
 V8 addon can be used like - 
 
 var myAddon = require("pathTo/cluster")
+
 myAddon.cluster(ArrayCoordinates, 20, 10, 10)
