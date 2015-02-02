@@ -1,5 +1,7 @@
 # Server-Side-Google-Map-Markers-Clustering-C-plus-plus-V8
-Render cluster points on google map generated on server side - very useful when you have a lot of items to show on map
+Render cluster points on google map generated on server side (using C++ module for V8 engine) - very useful when you have a lot of items to show on map. This library is meant to be used as a C++ module on a node.js project.
+
+If you are looking for a PHP solution you can find it here -> http://rtsoftwaregroup.io/server-side-google-map-markers-clustering/
 
 At some point a developer could face the situation in which has to display on the map thousands of markers and this of course isn’t a good move to implement the commonly used MarkerCluster (http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclusterer/docs/reference.html), because you don’t want to process all those markers on the browser, also the time to load all the data to the browser would be huge.
 
