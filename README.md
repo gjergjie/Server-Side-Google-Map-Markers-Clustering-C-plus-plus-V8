@@ -16,3 +16,8 @@ Also we had to use some Mercator (http://en.wikipedia.org/wiki/Mercator_projecti
 On the code below you will find the usage of couple params, Array with coordinates, Distance between points to create the cluster, Zoom level, and lately the more than number to create the cluster (we don’t want to create clusters with 2 or 4 points).
 
 But since the algorithm have to handle several loops for creating the clusters and since we had to make it faster possible we had to develop it on C++, which is really fast. We have used this module on a node.js API and we just include the pre-compiled module like how we do normally with all the node modules require() – for all folks which doesn’t know how to develop a V8 module for node, follow this link http://nodejs.org/api/addons.html
+
+V8 addon can be used like - 
+
+var myAddon = require("pathTo/cluster")
+myAddon.cluster(ArrayCoordinates, 20, 10, 10)
