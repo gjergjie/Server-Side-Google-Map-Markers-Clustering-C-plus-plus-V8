@@ -3,6 +3,8 @@ Render cluster points on google map generated on server side (using C++ module f
 
 If you are looking for a PHP solution you can find it here -> http://rtsoftwaregroup.io/server-side-google-map-markers-clustering/
 
+---------------------------------------
+
 At some point a developer could face the situation in which has to display on the map thousands of markers and this of course isn’t a good move to implement the commonly used MarkerCluster (http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclusterer/docs/reference.html), because you don’t want to process all those markers on the browser, also the time to load all the data to the browser would be huge.
 
 So we had to deal with the clustering algorithm and implement it on server side, as we googled around there were poor information on this direction and no body seems to have share a decent solution so far.
